@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-void main() {
-  runApp(const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: VideoWidget('assets/trailer.mp4')));
-}
-
 class VideoWidget extends StatefulWidget {
   final String source;
   final Color playerBackgroundColor;
