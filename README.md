@@ -6,7 +6,10 @@ This is a widget I developed for an application of mine. I ended up separating i
 
 Add the following line to your pubspec.yaml file:
 
+~~~yaml
 dependencies:
   video_widget:
     git:
       url: https://github.com/fariosofernando/VideoPlayerWidget-Flutter-.git
+
+~~~
